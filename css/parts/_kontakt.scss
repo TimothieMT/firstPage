@@ -1,0 +1,82 @@
+/**
+ * Kontakt
+ */
+
+.kontakt {
+    background-color: #5A575D;
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding;
+}
+
+.kontakt-heading {
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.kontakt-subheading {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.kontakt-methods {
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+.kontakt-methods li {
+    width: 100%;
+    font-weight: lighter;
+    height: 2.5em;
+    @media ($bp-larger-than-phablet) {
+        width: 100%;
+        float: none;
+    }
+}
+
+.kontakt-methods .fa {
+    font-size: 150%;
+}
+
+.kontakt-icon {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+.kontakt-input {
+    width: 100%;
+    margin-bottom: 28px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 0.33s;
+    transition: all 0.33s;
+}
+
+.kontakt-input:focus,
+input.kontakt-input:focus {
+    border: 1px solid rgb(30, 30, 30);
+    background-color: rgb(230, 230, 230);
+}
+
+.kontakt-message {
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+}
+
+input.kontakt-submit[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.kontakt-form {
+    margin-bottom: 0px;
+}
+
+.kontakt-label {
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.no-placeholder .kontakt-label {
+    display: block;
+}

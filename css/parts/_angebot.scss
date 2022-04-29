@@ -1,0 +1,54 @@
+/**
+ * Angebot - Bereich
+ */
+
+.angebot {
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding - 15px;
+    background-color: rgb(245, 245, 245);
+}
+
+.angebot-icon {
+    width: 70px;
+    height: 60px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    float: left;
+    transition: 0.5s;
+    @media ($bp-larger-than-phablet) {
+        display: none;
+    }
+    @media ($bp-larger-than-tablet) {
+        display: block;
+    }
+    &:hover {
+        transform: rotate(360deg);
+    }
+}
+
+$angebot-text-margin-left: 90px;
+.angebot-text {
+    margin-left: $angebot-text-margin-left;
+    @media ($bp-larger-than-phablet) {
+        margin-left: 0px;
+    }
+    @media ($bp-larger-than-tablet) {
+        margin-left: $angebot-text-margin-left;
+    }
+}
+
+.angebot-text h5 {
+    margin-bottom: 8px;
+    font-size: 150%;
+    color: rgb(30, 30, 30);
+}
+
+.angebot-titel {
+    font-weight: lighter;
+    margin: 0px 0px 40px;
+    color: rgb(30, 30, 30);
+}
